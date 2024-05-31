@@ -2,6 +2,12 @@ package main
 
 import "fmt"
 
+var x = 40
+var y = 41
+
 func main() {
-	fmt.Println("Hello, World!")
+	fmt.Printf("the value of x is %v and the Type of x is %T\n", x, x)
+	fmt.Printf("the value of y is %v and the Type of y is %T\n", y, y)
+	z := 42
+	fmt.Printf("the value of z is %v and the Type of z is %T\n", z, z)
 }
